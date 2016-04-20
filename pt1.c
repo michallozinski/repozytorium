@@ -6,9 +6,9 @@
    a = 4;
    b = 6;
    if (a==b) {
-     printf ("a jest równe b\n");
+     printf ("a jest rÃ³wne b\n");
    } else {
-     printf ("a nie jest równe b\n");
+     printf ("a nie jest rÃ³wne b\n");
    }
    return 0;
  }
