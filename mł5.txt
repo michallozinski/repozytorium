@@ -1,0 +1,11 @@
+ #include <stdio.h>
+ 
+ int main ()
+ {
+   int a = 1;
+   while (a <= 10) { /* dopóki a nie przekracza 10 */
+     printf ("%d\n", a*a); /* wypisz a*a na ekran*/
+     ++a; /* zwiêkszamy a o jeden*/
+   }
+   return 0;
+ }

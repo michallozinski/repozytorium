@@ -1,0 +1,4 @@
+ while (warunek) {
+   /* instrukcje do wykonania w pêtli */
+ }
+ /* dalsze instrukcje */

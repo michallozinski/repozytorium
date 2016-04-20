@@ -1,0 +1,19 @@
+ #include <stdio.h>
+ 
+ int main ()
+ {
+   unsigned int dzieci = 3, podatek=1000;
+   switch (dzieci) {
+      case  0: break; /* brak dzieci - czyli brak ulgi */ 
+      case  1: /* ulga  2% */
+        podatek = podatek - (podatek/100* 2); 
+        break;
+      case  2: /* ulga  5% */
+        podatek = podatek - (podatek/100* 5);
+        break;
+      default: /* ulga 10% */
+        podatek = podatek - (podatek/100*10);
+        break; 
+   }
+   printf ("Do zap³aty: %d\n", podatek);
+ }

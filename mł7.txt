@@ -1,0 +1,8 @@
+ {
+   wyra¿enie1;
+   while (wyra¿enie2) {
+     /* instrukcje do wykonania w pêtli */
+     wyra¿enie3;
+   }
+ }
+ /* dalsze instrukcje */

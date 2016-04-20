@@ -1,0 +1,4 @@
+ for (wyra¿enie1; wyra¿enie2; wyra¿enie3) {
+   /* instrukcje do wykonania w pêtli */
+ }
+ /* dalsze instrukcje */
